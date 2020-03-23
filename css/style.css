@@ -767,6 +767,15 @@ ul.social-icon li a:hover{
 .copyright{
     background-color: #0a1309;
 }
-  /* =====================FOOTER END===================== */
+/* =====================FOOTER END===================== */
 
 
+/* ====================MEDIA QUERIES==================== */
+@media (max-width: 992px) {
+    .main-nav .navbar-nav .nav-item.active .nav-link:before {
+      display: none;
+    }
+    .footer .block {
+      text-align: center !important;
+    }
+}
