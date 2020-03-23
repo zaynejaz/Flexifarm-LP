@@ -475,3 +475,67 @@ a:hover {
     font-size: .9rem;
 }
 /* =====================SERVICES END===================== */
+
+
+/* =====================VIDEO===================== */
+.para-bg {
+    background: url(../assets/images/para-bg/vid-bg.jpg) fixed no-repeat;
+    background-size: cover;
+  }
+  
+  .video-section {
+    height: auto;
+  }
+  
+  .video-section .video-info { 
+    height: 500px;
+    position: relative;
+    margin: auto; 
+  }
+  
+  .video-section .content-block {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .video-section .content-block {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .video-section .content-block h2 {
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .video-section .content-block p {
+    margin-bottom: 2rem;
+    color: #f1f1f1;
+  }
+  
+  .video-section .content-block a i.video {
+    height: 8.33rem;
+    width: 8.33rem;
+    background: #48b81c;
+    display: inline-block;
+    font-size: 2.6rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 8.33rem;
+    border-radius: 100%;
+  }
+  
+  .video-section .content-block a i.video:hover {
+    background: #ffffff;
+    color: #48b81c;
+  }
+  
+  .video-section .content-block a:focus {
+    outline: 0;
+  }
+  /* =====================VIDEO END===================== */
