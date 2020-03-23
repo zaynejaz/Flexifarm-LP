@@ -823,12 +823,13 @@ ul.social-icon li a:hover{
     }
 }
   
+@media (max-width: 480px) {
+    .section-title p {
+      width: 100%;
+    }
   
-  
-  
-  
-  
-  
-
-
-
+    .cta ul li {
+      margin-left: 0;
+      margin-bottom: .6rem;
+    }
+}
