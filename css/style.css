@@ -235,6 +235,16 @@ a:hover {
     box-shadow: none;
 }
 
+.btn-rounded-icon {
+    border-radius: 6.6rem;
+    color: #ffffff;
+    background-color: #48b81c;
+    border: 1px solid #ffffff;
+    padding: .8rem auto;
+    max-width: 10rem;
+    min-width: 10rem;
+  }
+
 /* =====================BUTTONS END===================== */
 
 
