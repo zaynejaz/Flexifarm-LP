@@ -2,108 +2,108 @@
 
 html,
 body{
-  margin: 0 !important;
-  padding: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
-  color: #444444;
-  font-weight: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
-  width: 100vw !important;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #444444;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    width: 100vw !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 
 h1 {
-  font-size: 3rem;
-  line-height: 61px;
+    font-size: 3rem;
+    line-height: 61px;
 }
 
 h2 {
-  font-size: 2.6rem;
-  line-height: 3.3rem;
+    font-size: 2.6rem;
+    line-height: 3.3rem;
 }
 
 h3 {
-  font-size: 1.3rem;
-  line-height: 1.6rem;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
 }
 
 p, li {
-  font-size: 1rem;
-  letter-spacing: 0;
-  line-height: 1.6rem;
-  color: #888888;
-  margin-bottom: 0;
+    font-size: 1rem;
+    letter-spacing: 0;
+    line-height: 1.6rem;
+    color: #888888;
+    margin-bottom: 0;
 }
 
 cite {
-  font-size: .8rem;
-  font-style: normal;
+    font-size: .8rem;
+    font-style: normal;
 }
 
 .italics{
-  font-style: italic;
+    font-style: italic;
 }
 
 .light{
-  font-weight: 200;
+    font-weight: 200;
 }
 .bold{
-  font-weight: 700;
+    font-weight: 700;
 }
 
 .shadow, 
 .service-box {
-  box-shadow: 0 8px 25px 0 #0000001c;
+    box-shadow: 0 8px 25px 0 #0000001c;
 }
 
 a {
-  font-size: inherit;
-  color: inherit;
+    font-size: inherit;
+    color: inherit;
 }
 
 a:focus, 
 a:hover {
-  color: #48b81c;
-  text-decoration: none;
+    color: #48b81c;
+    text-decoration: none;
 }
 
 .bg-gray {
-  background: #f1f1f1;
+    background: #f1f1f1;
 }
 
 .bg-green {
-  background: #48b81c;
+    background: #48b81c;
 }
 
 .white{
-  color: #ffffff !important;
+    color: #ffffff !important;
 }
 
 .grey{
-  color: #bdbdbd !important;
+    color: #bdbdbd !important;
 }
 
 .green{
-  color: #48b81c !important;
+    color: #48b81c !important;
 }
 
 .body-wrapper{
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .section {
-  padding: 6rem 0;
+    padding: 6rem 0;
 }
 
 /* =====================NAVBAR===================== */
@@ -111,18 +111,18 @@ a:hover {
     background: #ffffff;
     z-index: 99;
     width: 100vw;
-  }
+}
   
-  .main-nav .navbar-brand {
+.main-nav .navbar-brand {
     padding: 0;
-  }
+}
   
-  .main-nav .navbar-nav .nav-item {
+.main-nav .navbar-nav .nav-item {
     position: relative;
     font-family: "Roboto", sans-serif;
-  }
+}
   
-  .main-nav .navbar-nav .nav-item .nav-link {
+.main-nav .navbar-nav .nav-item .nav-link {
     position: relative;
     text-align: center;
     font-size: .8rem;
@@ -132,13 +132,13 @@ a:hover {
     padding-left: 1.3rem;
     padding-right: 1.3rem;
     line-height: 3rem;
-  }
+}
   
-  .main-nav .navbar-nav .nav-item.active .nav-link {
+.main-nav .navbar-nav .nav-item.active .nav-link {
     color: #48b81c;
-  }
+}
   
-  .main-nav .navbar-nav .nav-item.active .nav-link:before {
+.main-nav .navbar-nav .nav-item.active .nav-link:before {
     content: '';
     background: #48b81c;
     width: 60%;
@@ -146,9 +146,48 @@ a:hover {
     position: absolute;
     top: 0;
     left: 20%;
-  }
+}
   
-  .navbar-toggler:focus,
-  .navbar-toggler:hover {
+.navbar-toggler:focus,
+.navbar-toggler:hover {
     outline: none;
-  }
+}
+
+/* HAMBURGER MENU */
+#hamburger-menu{
+    background: transparent;
+    margin-left: -20px;
+}
+.toggler-bg{
+    position: relative;
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.menu-line{
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #299E20;
+    border-radius: 8px;
+    padding-right: 1.3rem;
+    transition: all cubic-bezier(.26, .1, .27, 1.55) .25s;
+}
+.top{
+    top: 20%;
+}
+.mid{
+    top: 50%;
+}
+.low{
+    top: 80%;
+}
+.icon.close .top{
+    top: 50%;
+    transform: rotate(45deg);
+}
+.icon.close .mid, 
+.icon.close .low{
+    top:50%;
+    transform: rotate(-45deg);
+} 
+/* =====================NAVBAR ENDS===================== */
