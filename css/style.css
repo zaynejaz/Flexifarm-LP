@@ -564,7 +564,60 @@ a:hover {
 
 
 /* =====================TESTIMONIALS===================== */
-
+.slider:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom: 19.3rem solid #ffffff;
+    border-left: 133.3rem solid transparent;
+    width: 0;
+}
+  
+.testimonial-slider .item {
+    padding-bottom: 1.3rem;
+}
+  
+.testimonial-slider .item .block {
+    padding: 2.6rem;
+    text-align: center;
+    margin: .6rem;
+    border-radius: .3rem;
+}
+  
+.testimonial-slider .item .block .image {
+    margin-top: 2rem;
+    margin-bottom: .3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+  
+.testimonial-slider .item .block .image img {
+    height: 2.6rem;
+    width: 2.6rem;
+    border-radius: 100%;
+}
+  
+.testimonial-slider .item .block p {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #888888;
+}
+  
+.testimonial-slider .item .block cite {
+    font-style: normal;
+    font-size: .9rem;
+    color: #161616;
+}
+  
+.testimonial .testimonial-slider .owl-dots .owl-dot:hover span {
+    background: #48b81c;
+}
+  
+.testimonial-slider .owl-dots .owl-dot.active span {
+    background: #48b81c;
+}
 /* =====================TESTIMONIALS END===================== */
 
 
