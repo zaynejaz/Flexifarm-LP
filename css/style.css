@@ -224,17 +224,17 @@ a:hover {
     font-weight: bold;
     outline: none !important;
     border: none !important;
-  }
+}
     
-  .btn-secondary:hover {
+.btn-secondary:hover {
     color: #ffffff;
     background: #1b5803;
-  }
+}
     
-  .btn-secondary:focus {
+.btn-secondary:focus {
     color: #ffffff;
     box-shadow: none;
-  }
+}
 
 /* =====================BUTTONS END===================== */
 
@@ -267,9 +267,12 @@ a:hover {
     bottom: 0;
     overflow: hidden !important;
 }
-  .line {
-    position: absolute;}
-  .line::before {
+
+.line {
+    position: absolute;
+}
+
+.line::before {
     content: '';
     top: 0;
     bottom: 0;
@@ -279,13 +282,15 @@ a:hover {
     -webkit-transform: rotate(-35deg);
             transform: rotate(-35deg);
     position: absolute;
-    border-radius: 3.3rem;}
-  .line:nth-child(1) {
+    border-radius: 3.3rem;
+}
+
+.line:nth-child(1) {
     top: 5%;
     left: 10%;
     width: 26rem;
     height: 4.6rem;
-  }
+}
   
 .line:nth-child(2) {
     top: 14%;
