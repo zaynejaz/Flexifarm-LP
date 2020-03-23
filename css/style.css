@@ -193,6 +193,30 @@ a:hover {
 /* =====================NAVBAR ENDS===================== */
 
 
+/* =====================BUTTONS===================== */
+.btn-main {
+    padding: 1.6rem 3rem;
+    border-radius: 3px;
+    background: #48b81c;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    outline: none;
+}
+  
+.btn-main:hover {
+    background: #ffffff;
+    color: #48b81c;
+}
+  
+.btn-main:focus {
+    color: #ffffff;
+    box-shadow: none;
+}
+
+/* =====================BUTTONS END===================== */
+
+
 /* =====================HEADER===================== */
 .header-bg {
     padding: 6.6rem 0 11.3rem;
