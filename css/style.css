@@ -809,6 +809,20 @@ ul.social-icon li a:hover{
     }
 }
   
+@media (max-width: 575px) {
+    .block-inner{
+      align-items: center;
+      text-align: center
+    }
+    .mt-5.no-heading{
+      margin-top: 0 !important;
+    }
+    .no-heading h6{
+      display: none;
+  
+    }
+}
+  
   
   
   
