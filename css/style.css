@@ -481,44 +481,44 @@ a:hover {
 .para-bg {
     background: url(../assets/images/para-bg/vid-bg.jpg) fixed no-repeat;
     background-size: cover;
-  }
+}
   
-  .video-section {
+.video-section {
     height: auto;
-  }
+}
   
-  .video-section .video-info { 
+.video-section .video-info { 
     height: 500px;
     position: relative;
     margin: auto; 
-  }
+}
   
-  .video-section .content-block {
+.video-section .content-block {
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-  }
+}
   
-  .video-section .content-block {
+.video-section .content-block {
     width: 60%;
     margin: 0 auto;
     text-align: center;
-  }
+}
   
-  .video-section .content-block h2 {
+.video-section .content-block h2 {
     font-size: 2rem;
     color: #fff;
-  }
+}
   
-  .video-section .content-block p {
+.video-section .content-block p {
     margin-bottom: 2rem;
     color: #f1f1f1;
-  }
+}
   
-  .video-section .content-block a i.video {
+.video-section .content-block a i.video {
     height: 8.33rem;
     width: 8.33rem;
     background: #48b81c;
@@ -528,14 +528,109 @@ a:hover {
     text-align: center;
     line-height: 8.33rem;
     border-radius: 100%;
-  }
+}
   
-  .video-section .content-block a i.video:hover {
+.video-section .content-block a i.video:hover {
     background: #ffffff;
     color: #48b81c;
+}
+  
+.video-section .content-block a:focus {
+    outline: 0;
+}
+/* =====================VIDEO END===================== */
+
+
+/* =====================TESTIMONIALS===================== */
+
+/* =====================TESTIMONIALS END===================== */
+
+
+/* =====================CTA===================== */
+.cta {
+    text-align: center;
+    height: auto;
   }
   
-  .video-section .content-block a:focus {
-    outline: 0;
+  .cta h2, 
+  .cta p, 
+  .cta a {
+    color: #ffffff !important;
   }
-  /* =====================VIDEO END===================== */
+  
+  .cta p {
+    margin-bottom: 2rem;
+  }
+  
+  .cta ul li {
+    margin-left: 1rem;
+  }
+  
+  .cta ul li:first-child {
+    margin-left: 0;
+  }
+  
+  .cta ul li a i {
+    font-size: 1.3rem;
+    margin-right: .3rem;
+  }
+  
+  .list-inline{
+    margin: 0 !important;
+  }
+  
+  .list-inline-item{
+    margin-top: 2rem !important;
+    margin-bottom: 0 !important;
+  }
+  
+  .os-btn{
+    cursor: default;
+  }
+  
+  .os-btn span{
+    display: none !important;
+  }
+  
+  .os-btn:hover span{
+    display: inline-block !important;
+    color: #48b81c;
+    font-weight: 600;
+  }
+  
+  .os-btn:hover i{
+    display: none !important;
+  }
+  
+  .os-btn:hover.btn-rounded-icon{
+    border-radius: 6.6rem;
+    color: #48b81c;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+  
+  .cta-btn{
+    margin-top: 2rem;
+    border-radius: 0;
+    color: #ffffff;
+    background-color: #48b81c;
+    border: 1px solid #ffffff;
+    padding: .8rem auto;
+    max-width: 12rem;
+    min-width: 12rem;
+    line-height: 2.5rem !important;
+  }
+  
+  .cta-btn:hover span{
+    color: #48b81c;
+    font-weight: 600;
+  }
+  
+  .cta-btn:hover.btn-icon{
+    background-color: #ffffff;
+    border: none!important;
+    border-bottom: 2px solid #ffffff !important;
+  }
+  /* =====================CTA END===================== */
+
+
