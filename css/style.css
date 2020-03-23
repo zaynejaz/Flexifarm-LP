@@ -709,3 +709,64 @@ a:hover {
 /* =====================CTA END===================== */
 
 
+/* =====================FOOTER===================== */
+.footer {
+    padding: 6rem 0;
+    background: #1d241c;
+}
+  
+.footer .block img {
+    margin-bottom: 1.3rem;
+}
+  
+.footer .block ul.social-icon li a {
+    text-decoration: none;
+    display: block;
+    width: 2.6rem;
+    height: 2.6rem;
+    background: none !important;
+    color: #f1f1f1;
+    text-align: center;
+    line-height: 2.6rem;
+    transition: all .4s ease-in-out;
+  
+}
+  
+ul.social-icon li a:hover{
+    color: #48b81c !important;
+    transition: all .6s ease-in-out;
+}
+  
+.footer .block-inner h6 {
+    font-weight: bold;
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 1.6rem;
+}
+  
+.footer .block-inner ul {
+    padding: 0;
+}
+  
+.footer .block-inner ul li {
+    margin-bottom: .6rem;
+    list-style: none;
+}
+  
+.footer .block-inner ul li a {
+    font-size: .8rem;
+    color: #777777;
+    transition: .2s ease;
+}
+  
+.footer .block-inner ul li a:hover {
+    color: #ffffff;
+}
+  
+.copyright{
+    background-color: #0a1309;
+}
+  /* =====================FOOTER END===================== */
+
+
