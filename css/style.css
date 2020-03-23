@@ -437,7 +437,7 @@ a:hover {
 /* =====================FEATURES END===================== */
   
   
-/* =====================FEATURES===================== */
+/* =====================SERVICES===================== */
 .section-title {
     text-align: center;
     margin-bottom: 2rem;
@@ -452,3 +452,26 @@ a:hover {
     width: 50%;
     margin: 0 auto;
 }
+
+.service-box {
+    padding: 1.3rem;
+    background: #ffffff;
+    border-radius: 4px;
+}
+  
+.service-item {
+    text-align: center;
+    padding: .6rem;
+    margin: 1.3rem 0;
+}
+  
+.service-item i {
+    color: #48b81c;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+  
+.service-item p {
+    font-size: .9rem;
+}
+/* =====================SERVICES END===================== */
