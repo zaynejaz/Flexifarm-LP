@@ -38,6 +38,15 @@
             once: false
         });
 
+        // ----------------AUTO UPDATE CURRENT YEAR----------------
+        window.addEventListener("load", ()=> {
+            !function() {
+                var e=new Date;
+                null!==document.querySelector("#currentYear")&&(document.querySelector("#currentYear").innerText=e.getFullYear())
+                }
+                ()
+            }
+        );
         
     });
 
