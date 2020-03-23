@@ -3,7 +3,7 @@
 
     $(document).on('ready', function () {
 
-        // ===================TESTIMONIAL SLIDER (OWL)===================
+// ===================TESTIMONIAL SLIDER (OWL)===================
         $('.testimonial-slider').owlCarousel({
             autoplay: true,
             loop: true,
@@ -25,8 +25,7 @@
             }
         });
         
-        // ===================NAVBAR NAVIGATION SELECTOR + SMOOTH SCROLL + HAMBURGER ANIMATION===================
-        
+// ===================NAVBAR NAVIGATION SELECTOR + SMOOTH SCROLL + HAMBURGER ANIMATION===================
         //cache selectors
         var lastId,
             topMenu = $("#navbarNav"),
@@ -76,12 +75,12 @@
             $(".icon").toggleClass("close");
         })
         
-        // ===================ANIMATE ON SCROLL (AOS)===================
+// ===================ANIMATE ON SCROLL (AOS)===================
         AOS.init({
             once: false
         });
 
-        // ===================AUTO UPDATE CURRENT YEAR===================
+// ===================AUTO UPDATE CURRENT YEAR===================
         window.addEventListener("load", ()=> {
             !function() {
                 var e=new Date;
