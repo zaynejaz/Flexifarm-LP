@@ -243,8 +243,20 @@ a:hover {
     padding: .8rem auto;
     max-width: 10rem;
     min-width: 10rem;
-  }
+}
 
+.btn-form{
+  width: 100%;
+  background: transparent;
+  color: #48b81c !important;
+  border: 2px solid #48b81c;
+}
+
+.btn-form:hover{
+  background: #48b81c;
+  color: #ffffff !important;
+  border: 2px solid transparent;
+}
 /* =====================BUTTONS END===================== */
 
 
@@ -560,66 +572,66 @@ a:hover {
 .cta {
     text-align: center;
     height: auto;
-  }
+}
   
-  .cta h2, 
-  .cta p, 
-  .cta a {
+.cta h2, 
+.cta p, 
+.cta a {
     color: #ffffff !important;
-  }
+}
   
-  .cta p {
+.cta p {
     margin-bottom: 2rem;
-  }
+}
   
-  .cta ul li {
+.cta ul li {
     margin-left: 1rem;
-  }
+}
   
   .cta ul li:first-child {
     margin-left: 0;
-  }
+}
   
-  .cta ul li a i {
+.cta ul li a i {
     font-size: 1.3rem;
     margin-right: .3rem;
-  }
+}
   
-  .list-inline{
+.list-inline{
     margin: 0 !important;
-  }
+}
   
-  .list-inline-item{
+.list-inline-item{
     margin-top: 2rem !important;
     margin-bottom: 0 !important;
-  }
+}
   
-  .os-btn{
+.os-btn{
     cursor: default;
-  }
+}
   
-  .os-btn span{
+.os-btn span{
     display: none !important;
-  }
+}
   
-  .os-btn:hover span{
+.os-btn:hover span{
     display: inline-block !important;
     color: #48b81c;
     font-weight: 600;
-  }
+}
   
-  .os-btn:hover i{
+.os-btn:hover i{
     display: none !important;
-  }
+}
   
-  .os-btn:hover.btn-rounded-icon{
+.os-btn:hover.btn-rounded-icon{
     border-radius: 6.6rem;
     color: #48b81c;
     background-color: #ffffff;
     border: 1px solid #ffffff;
-  }
+}
   
-  .cta-btn{
+.cta-btn{
     margin-top: 2rem;
     border-radius: 0;
     color: #ffffff;
@@ -629,18 +641,18 @@ a:hover {
     max-width: 12rem;
     min-width: 12rem;
     line-height: 2.5rem !important;
-  }
+}
   
-  .cta-btn:hover span{
+.cta-btn:hover span{
     color: #48b81c;
     font-weight: 600;
-  }
+}
   
-  .cta-btn:hover.btn-icon{
+.cta-btn:hover.btn-icon{
     background-color: #ffffff;
     border: none!important;
     border-bottom: 2px solid #ffffff !important;
-  }
-  /* =====================CTA END===================== */
+}
+/* =====================CTA END===================== */
 
 
