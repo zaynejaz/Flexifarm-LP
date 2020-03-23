@@ -779,3 +779,42 @@ ul.social-icon li a:hover{
       text-align: center !important;
     }
 }
+  
+@media (max-width: 768px) {
+    .services .col-lg-4.m-auto {
+      display: none;
+    }
+    .service-box {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .service-thumb {
+      width: 80%;
+      margin: 0 auto;
+    }
+    
+    .testimonial-slider .item .block .image {
+      flex-grow: 1;
+    }
+  
+    .contact{
+      padding: 6rem 1.5rem;
+    }
+  
+    .footer {
+      padding: 3.3rem 0;
+    }
+    .footer .block {
+      margin-bottom: 2.6rem;
+    }
+}
+  
+  
+  
+  
+  
+  
+  
+
+
+
