@@ -105,3 +105,50 @@ a:hover {
 .section {
   padding: 6rem 0;
 }
+
+/* =====================NAVBAR===================== */
+.main-nav {
+    background: #ffffff;
+    z-index: 99;
+    width: 100vw;
+  }
+  
+  .main-nav .navbar-brand {
+    padding: 0;
+  }
+  
+  .main-nav .navbar-nav .nav-item {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .main-nav .navbar-nav .nav-item .nav-link {
+    position: relative;
+    text-align: center;
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #444444;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    line-height: 3rem;
+  }
+  
+  .main-nav .navbar-nav .nav-item.active .nav-link {
+    color: #48b81c;
+  }
+  
+  .main-nav .navbar-nav .nav-item.active .nav-link:before {
+    content: '';
+    background: #48b81c;
+    width: 60%;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    left: 20%;
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:hover {
+    outline: none;
+  }
